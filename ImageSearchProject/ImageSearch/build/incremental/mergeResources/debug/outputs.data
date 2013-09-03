@@ -1,0 +1,14 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1378196998000 377 942387ddc6d320d90f4e4f604bc48c58f655a8ec /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/layout/grid_main.xml
+1378160573000 3156 be9d6d2174e9cbaabca59e8090160434dbd60002 /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1378160573000 18087 8d35b7c0e81c9caf7ee547905d69c9542a08b87f /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1378160573000 6120 ced3785afb467e5670c9c7db0d3a345d15454ea5 /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1378160573000 344 aa7ebf06c9f982f61d94c5e521566f536a0d8506 /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/values-v11/values.xml
+1378160573000 275 e34f0d614aca1e0cb74818f3722044d89d508690 /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/values-sw720dp-land/values.xml
+1378199971000 1468 9c8f049d03cb622e47c6e2138cb7edfff0d7f144 /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/values/values.xml
+1378160573000 380 200d40bbe67829f565c98a4cfd970d452fb69b4f /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/menu/image_search.xml
+1378160573000 358 b352b60831355d72d90f2bb2f77228dceaeb354b /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/values-v14/values.xml
+1378160573000 9487 7e58a59b9c3cf7a7a1df12376c329591dd31f5e4 /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1378199971000 1497 43600ea6c644876c7b1795cee7e6b7487dbbe81f /Users/tony.dao/Dropbox/dev/android/android_studio/ImageSearchProject/ImageSearch/build/res/all/debug/layout/activity_main.xml

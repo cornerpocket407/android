@@ -1,0 +1,2 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+//dependencies{ compile files('libs/android-async-http-1.4.3.jar') }
