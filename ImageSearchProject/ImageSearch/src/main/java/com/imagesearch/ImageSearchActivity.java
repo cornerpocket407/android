@@ -1,11 +1,13 @@
 package com.imagesearch;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,7 +31,7 @@ public class ImageSearchActivity extends Activity {
     private GridView gvResults;
     private Button btnSearch;
     private List<ImageResult> imageResults = new ArrayList<ImageResult>();
-    private ArrayAdapter<ImageResult> adapter;
+    private ImageAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,10 +44,18 @@ public class ImageSearchActivity extends Activity {
         etQuery = (EditText) findViewById(R.id.etQuery);
         gvResults = (GridView) findViewById(R.id.gvResults);
         btnSearch = (Button) findViewById(R.id.btnSearch);
-        adapter = new ArrayAdapter<ImageResult>(this, android.R.layout.simple_list_item_1, imageResults);
+        adapter = new ImageAdapter(this, imageResults);
         gvResults.setAdapter(adapter);
+        gvResults.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getApplicationContext(), ImageDisplayActivity.class);
+                ImageResult imageResult = imageResults.get(position);
+                intent.putExtra("result", imageResult);
+                startActivity(intent);
+            }
+        });
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -24,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.imagesearch.ImageDisplayActivity"
+            android:label="@string/title_activity_image_display" >
+        </activity>
     </application>
 
 </manifest>
