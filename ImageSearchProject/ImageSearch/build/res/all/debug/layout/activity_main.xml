@@ -41,5 +41,14 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loadMore"
+        android:id="@id/btnLoad"
+        android:layout_alignBottom="@id/gvResults"
+        android:layout_centerHorizontal="true"
+        android:onClick="onLoadMore" />
+
 </RelativeLayout>
 <!-- From: file:/Users/tony.dao/Dropbox/dev/android/codepath_projects/ImageSearchProject/ImageSearch/src/main/res/layout/activity_main.xml -->

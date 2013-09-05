@@ -5,26 +5,33 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/Users/tony.dao/Dropbox/dev/android/codepath_projects/ImageSearchProject/ImageSearch/src/main/res/values/ids.xml -->
+    <item name="btnLoad" type="id">btnLoad</item>
     <item name="btnSave" type="id">btnSave</item>
     <item name="btnSettings" type="id">Settings</item>
     <item name="etSiteFilter" type="id">etSiteFilter</item>
     <item name="gvResults" type="id">gvResults</item>
+    <item name="spColorFilter" type="id">spColorFilter</item>
     <item name="spImageSize" type="id">spImageSize</item>
+    <item name="spImageType" type="id">spImageType</item>
     <item name="tvSiteFilter" type="id">tvSiteFilter</item>
     <!-- From: file:/Users/tony.dao/Dropbox/dev/android/codepath_projects/ImageSearchProject/ImageSearch/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
     <string name="app_name">Image Search</string>
     <string name="blah">blah</string>
     <string name="hello_world">Hello world!</string>
+    <string name="imageType">Image Type</string>
     <string name="image_size">Image Size</string>
     <string name="imgSize">Image Size</string>
     <string name="img_size">Image Size</string>
+    <string name="invalid_url">Please enter a valid URL.</string>
+    <string name="loadMore">Load more</string>
     <string name="save">Save</string>
     <string name="search">Search</string>
     <string name="settings">Settings</string>
     <string name="sitefilter">Site Filter</string>
     <string name="title_activity_image_display">ImageDisplayActivity</string>
     <string name="title_activity_settings">Advanced Search Options</string>
+    <string name="tvColorFilter">Color Filter</string>
     <!-- From: file:/Users/tony.dao/Dropbox/dev/android/codepath_projects/ImageSearchProject/ImageSearch/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

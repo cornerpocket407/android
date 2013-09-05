@@ -2,5 +2,5 @@
 <resources>
     <item name="gvResults" type="id">gvResults</item>
     <item name="btnSettings" type="id">Settings</item>
-    <item name="spImageSize" type="id">spImageSize</item><item name="btnSave" type="id">btnSave</item><item name="tvSiteFilter" type="id">tvSiteFilter</item><item name="etSiteFilter" type="id">etSiteFilter</item>
+    <item name="spImageSize" type="id">spImageSize</item><item name="btnSave" type="id">btnSave</item><item name="tvSiteFilter" type="id">tvSiteFilter</item><item name="etSiteFilter" type="id">etSiteFilter</item><item name="btnLoad" type="id">btnLoad</item><item name="spColorFilter" type="id">spColorFilter</item><item name="spImageType" type="id">spImageType</item>
 </resources>

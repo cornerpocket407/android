@@ -25,7 +25,7 @@
         android:layout_alignTop="@+id/textView"
         android:layout_toRightOf="@+id/textView"
         android:layout_marginLeft="16dp"
-        android:spinnerMode="dropdown" />
+        android:spinnerStyle="@android:style/Widget.Spinner.DropDown" />
 
     <Button
         android:layout_width="wrap_content"
@@ -52,5 +52,38 @@
         android:layout_alignTop="@id/tvSiteFilter"
         android:layout_toRightOf="@id/tvSiteFilter"
         android:hint="Enter a domain here" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/tvColorFilter"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/spImageSize"
+        android:layout_toLeftOf="@+id/spImageSize" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/spColorFilter"
+        android:layout_below="@+id/spImageSize"
+        android:layout_alignLeft="@+id/spImageSize"
+        android:spinnerStyle="@android:style/Widget.Spinner.DropDown" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/imageType"
+        android:id="@+id/textView3"
+        android:layout_below="@id/spColorFilter"
+        android:layout_alignLeft="@+id/textView2" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/spImageType"
+        android:layout_below="@id/spColorFilter"
+        android:layout_alignLeft="@id/spColorFilter" />
 
 </RelativeLayout>
