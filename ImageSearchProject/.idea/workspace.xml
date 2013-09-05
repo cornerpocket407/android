@@ -14,17 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d118e27a-f03c-4e0b-ad8f-2c875e38a297" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsProvider.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java" afterPath="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/build/source/r/debug/com/imagesearch/R.java" afterPath="$PROJECT_DIR$/ImageSearch/build/source/r/debug/com/imagesearch/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/Settings.java" afterPath="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/Settings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsActivity.java" afterPath="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/ImageSearch/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/ImageSearch/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/src/main/res/values/ids.xml" afterPath="$PROJECT_DIR$/ImageSearch/src/main/res/values/ids.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/src/main/res/layout/settings.xml" afterPath="$PROJECT_DIR$/ImageSearch/src/main/res/layout/settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/ImageSearch/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageSearch/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/ImageSearch/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ImageSearch.iws" />
@@ -43,83 +35,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java" line="46" class="com.imagesearch.ImageSearchActivity" package="com.imagesearch">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java" line="98" class="com.imagesearch.ImageSearchActivity" package="com.imagesearch">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsActivity.java" line="85" class="com.imagesearch.SettingsActivity$1" package="com.imagesearch">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsActivity.java" line="83" class="com.imagesearch.SettingsActivity$1" package="com.imagesearch">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java" line="119" class="com.imagesearch.ImageSearchActivity$3" package="com.imagesearch">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -157,6 +72,68 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java" line="127" class="com.imagesearch.ImageSearchActivity$3" package="com.imagesearch">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsActivity.java" line="91" class="com.imagesearch.SettingsActivity" package="com.imagesearch">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java" line="107" class="com.imagesearch.ImageSearchActivity" package="com.imagesearch">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java" line="47" class="com.imagesearch.ImageSearchActivity" package="com.imagesearch">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -166,39 +143,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImageSearchActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ImageSearchActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="54" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-              <folding>
-                <element signature="e#2001#2443#0" expanded="true" />
-                <element signature="e#2432#2433#0" expanded="true" />
-              </folding>
+            <state line="127" column="0" selection-start="4832" selection-end="4832" vertical-scroll-proportion="1.1394231" vertical-offset="951" max-vertical-offset="1650">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SettingsActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Activity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/dev/adt-bundle-mac-x86_64-20130729/sdk/sources/android-17/android/app/Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4262" column="19" selection-start="181125" selection-end="181125" vertical-scroll-proportion="0.0" vertical-offset="62546" max-vertical-offset="78360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="0" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.76456875" vertical-offset="752" max-vertical-offset="1650">
+            <state line="91" column="0" selection-start="3693" selection-end="3693" vertical-scroll-proportion="0.0" vertical-offset="1202" max-vertical-offset="1620">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1324#1344#0" expanded="true" />
-                <element signature="e#1665#1687#0" expanded="true" />
-                <element signature="e#2010#2030#0" expanded="true" />
-                <element signature="e#3018#3989#0" expanded="true" />
-                <element signature="e#3654#3677#0" expanded="true" />
-                <element signature="e#3978#3979#0" expanded="true" />
+                <element signature="e#3502#3525#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/res/values/strings.xml">
+      <file leaf-file-name="ImageDisplayActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageDisplayActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="56" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="315">
+            <state line="16" column="60" selection-start="388" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -246,7 +224,7 @@
       <file leaf-file-name="settings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/res/layout/settings.xml">
           <provider editor-type-id="text-editor">
-            <state line="64" column="12" selection-start="2526" selection-end="2526" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1425">
+            <state line="65" column="12" selection-start="2559" selection-end="2559" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
@@ -258,7 +236,7 @@
       <file leaf-file-name="Settings.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="19" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1440">
+            <state line="22" column="19" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -329,8 +307,8 @@
         <option value="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsProvider.java" />
         <option value="$PROJECT_DIR$/ImageSearch/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/ImageSearch/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/ImageSearch/src/main/res/layout/settings.xml" />
         <option value="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/Settings.java" />
+        <option value="$PROJECT_DIR$/ImageSearch/src/main/res/layout/settings.xml" />
         <option value="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java" />
       </list>
@@ -593,12 +571,12 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -762,7 +740,11 @@
       <created>1378342646237</created>
       <updated>1378342646237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- complete">
+      <created>1378354064436</created>
+      <updated>1378354064436</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -791,8 +773,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49784482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
@@ -805,7 +787,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="- functional settings page with size and sitefilter working" />
-    <option name="LAST_COMMIT_MESSAGE" value="- functional settings page with size and sitefilter working" />
+    <MESSAGE value="- complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="- complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -825,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageDisplayActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="60" selection-start="388" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="11" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
@@ -847,6 +823,20 @@
     <entry file="file://$USER_HOME$/dev/adt-bundle-mac-x86_64-20130729/sdk/sources/android-17/android/widget/ArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="347" column="29" selection-start="11753" selection-end="11753" vertical-scroll-proportion="0.0" vertical-offset="4578" max-vertical-offset="7470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="56" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/dev/adt-bundle-mac-x86_64-20130729/sdk/sources/android-17/android/net/Uri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="424" column="22" selection-start="14849" selection-end="14869" vertical-scroll-proportion="0.0" vertical-offset="5688" max-vertical-offset="34545">
           <folding />
         </state>
       </provider>
@@ -875,30 +865,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/dev/adt-bundle-mac-x86_64-20130729/sdk/sources/android-17/android/net/Uri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="424" column="22" selection-start="14849" selection-end="14869" vertical-scroll-proportion="0.0" vertical-offset="5688" max-vertical-offset="34545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="56" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/res/layout/settings.xml">
-      <provider editor-type-id="text-editor">
-        <state line="64" column="12" selection-start="2526" selection-end="2526" vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="19" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1440">
@@ -906,28 +872,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java">
+    <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/res/layout/settings.xml">
+      <provider editor-type-id="text-editor">
+        <state line="65" column="12" selection-start="2559" selection-end="2559" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageDisplayActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="54" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-          <folding>
-            <element signature="e#2001#2443#0" expanded="true" />
-            <element signature="e#2432#2433#0" expanded="true" />
-          </folding>
+        <state line="16" column="60" selection-start="388" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/dev/adt-bundle-mac-x86_64-20130729/sdk/sources/android-17/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4262" column="19" selection-start="181125" selection-end="181125" vertical-scroll-proportion="0.0" vertical-offset="62546" max-vertical-offset="78360">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/SettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.76456875" vertical-offset="752" max-vertical-offset="1650">
+        <state line="91" column="0" selection-start="3693" selection-end="3693" vertical-scroll-proportion="0.0" vertical-offset="1202" max-vertical-offset="1620">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1324#1344#0" expanded="true" />
-            <element signature="e#1665#1687#0" expanded="true" />
-            <element signature="e#2010#2030#0" expanded="true" />
-            <element signature="e#3018#3989#0" expanded="true" />
-            <element signature="e#3654#3677#0" expanded="true" />
-            <element signature="e#3978#3979#0" expanded="true" />
+            <element signature="e#3502#3525#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageSearch/src/main/java/com/imagesearch/ImageSearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="0" selection-start="4832" selection-end="4832" vertical-scroll-proportion="1.1394231" vertical-offset="951" max-vertical-offset="1650">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -72,28 +72,26 @@ public class SettingsActivity extends Activity {
         etSiteFilter.setText(settings.getSiteFilter() == null ? "" : settings.getSiteFilter().toString());
 
         Button btnSave = (Button) findViewById(R.id.btnSave);
-        btnSave.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                settings.setImageSize((Settings.ImageSize) spImageSize.getSelectedItem());
-                settings.setColorFilter((Settings.ColorFilter) spColorFilter.getSelectedItem());
-                settings.setImageType((Settings.ImageType) spImageType.getSelectedItem());
-
-                try {
-                    URI siteFilter = URI.create(etSiteFilter.getText().toString());
-                    settings.setSiteFilter(siteFilter.toString());
-                } catch (IllegalArgumentException e) {
-                    Toast.makeText(getApplicationContext(), R.string.invalid_url, Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                Intent intent = new Intent(getApplicationContext(), ImageSearchActivity.class);
-                intent.putExtra("settings", settings);
-                startActivity(intent);
-            }
-        });
     }
 
+    public void onSave(View v) {
+        settings.setImageSize((Settings.ImageSize) spImageSize.getSelectedItem());
+        settings.setColorFilter((Settings.ColorFilter) spColorFilter.getSelectedItem());
+        settings.setImageType((Settings.ImageType) spImageType.getSelectedItem());
+
+        try {
+            URI siteFilter = URI.create(etSiteFilter.getText().toString());
+            settings.setSiteFilter(siteFilter.toString());
+        } catch (IllegalArgumentException e) {
+            Toast.makeText(getApplicationContext(), R.string.invalid_url, Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        Intent intent = new Intent();
+        intent.putExtra("settings", settings);
+        setResult(RESULT_OK, intent);
+        finish();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

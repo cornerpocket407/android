@@ -34,6 +34,7 @@ public class ImageSearchActivity extends Activity {
     private ImageAdapter adapter;
     private Settings settings;
     private int currentPage;
+    private static final int REQUEST_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +43,16 @@ public class ImageSearchActivity extends Activity {
         setupView();
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode == RESULT_OK && requestCode == REQUEST_CODE) {
+            Toast.makeText(this, "Settings Saved.",
+                    Toast.LENGTH_SHORT).show();
+            settings = (Settings) data.getSerializableExtra("settings");
+        }
+    }
+
     private void setupView() {
-        settings = (Settings) getIntent().getSerializableExtra("settings");
         etQuery = (EditText) findViewById(R.id.etQuery);
         gvResults = (GridView) findViewById(R.id.gvResults);
         Button btnSettings = (Button) findViewById(R.id.btnSettings);
@@ -52,7 +61,7 @@ public class ImageSearchActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
                 intent.putExtra("settings", settings);
-                startActivity(intent);
+                startActivityForResult(intent, REQUEST_CODE);
             }
         });
 
@@ -81,14 +90,13 @@ public class ImageSearchActivity extends Activity {
             Toast.makeText(this, "Please enter a query first.", Toast.LENGTH_SHORT).show();
             return;
         }
-        currentPage++;
+        currentPage+=8;
         String query = etQuery.getText().toString();
         imageSearch(query);
     }
 
     public void onImageSearch(View v) {
         currentPage = 0;
-//        imageResults.clear();
         String query = etQuery.getText().toString();
         Toast.makeText(this, "Search for " + query, Toast.LENGTH_SHORT).show();
         imageSearch(query);
