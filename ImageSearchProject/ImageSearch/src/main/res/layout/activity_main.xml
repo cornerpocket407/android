@@ -19,11 +19,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/blah"
+        android:text="@string/search"
         android:id="@+id/btnSearch"
-        android:layout_alignBottom="@+id/etQuery"
-        android:layout_alignParentRight="true"
-        android:onClick="onImageSearch" />
+        android:onClick="onImageSearch"
+        android:layout_above="@id/gvResults"
+        android:layout_toRightOf="@+id/etQuery" />
 
     <GridView
         android:layout_width="match_parent"
@@ -32,5 +32,13 @@
         android:layout_below="@+id/etQuery"
         android:layout_alignLeft="@+id/etQuery"
         android:numColumns="3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:id="@id/btnSettings"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
 
 </RelativeLayout>

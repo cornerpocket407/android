@@ -8,15 +8,14 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
-import android.widget.ListAdapter;
 import android.widget.Toast;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
+import com.loopj.android.image.SmartImageView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -32,6 +31,7 @@ public class ImageSearchActivity extends Activity {
     private Button btnSearch;
     private List<ImageResult> imageResults = new ArrayList<ImageResult>();
     private ImageAdapter adapter;
+    private Settings settings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,9 +41,20 @@ public class ImageSearchActivity extends Activity {
     }
 
     private void setupView() {
+        settings = (Settings) getIntent().getSerializableExtra("settings");
         etQuery = (EditText) findViewById(R.id.etQuery);
         gvResults = (GridView) findViewById(R.id.gvResults);
         btnSearch = (Button) findViewById(R.id.btnSearch);
+        Button btnSettings = (Button) findViewById(R.id.btnSettings);
+        btnSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
+                intent.putExtra("settings", settings);
+                startActivity(intent);
+            }
+        });
+
         adapter = new ImageAdapter(this, imageResults);
         gvResults.setAdapter(adapter);
         gvResults.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -69,8 +80,16 @@ public class ImageSearchActivity extends Activity {
         Toast.makeText(this, "Search for " + query, Toast.LENGTH_SHORT).show();
 
         AsyncHttpClient client = new AsyncHttpClient();
-        String url = String.format("https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=%s&q=android", Uri.encode(query));
-        client.get(url, new JsonHttpResponseHandler() {
+        StringBuilder sb = new StringBuilder(String.format("https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=%s", Uri.encode(query)));
+        if (settings != null) {
+            if (settings.getImageSize() != null) {
+                sb.append("&imgsz=").append(settings.getImageSize().getUrlValue());
+            }
+            if (settings.getSiteFilter() != null) {
+                sb.append("&as_sitesearch=").append(settings.getSiteFilter().toString());
+            }
+        }
+        client.get(sb.toString(), new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(JSONObject response) {
                 try {
